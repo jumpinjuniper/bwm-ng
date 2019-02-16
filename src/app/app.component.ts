@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'bmw-cli';
+
+  componentTitle = "I am a component from Component.ts";
+  clickHandler() {
+    alert("I AM CLICKED!");
+  }
 }
